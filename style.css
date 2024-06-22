@@ -1,7 +1,7 @@
  
  body {
      background-color: rgb(83, 83, 83);
-     cursor: url ('assets/Cursor1.png');
+     cursor: url ('assets/Cursor1.png'), auto;
  }
 
 
