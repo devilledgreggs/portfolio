@@ -1,14 +1,8 @@
  
  body {
      background-color: rgb(83, 83, 83);
+     cursor: url ('assets/Cursor1.png');
  }
 
- html {
-    cursor: url ('assets/Cursor1.png'), auto;
- }
-
- html a {
-     cursor: url ('assets/Cursor2.png'), auto;
- }
 
 
