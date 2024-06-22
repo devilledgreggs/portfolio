@@ -1,8 +1,40 @@
  
  body {
-     background-color: rgb(83, 83, 83);
-     cursor: url ('assets/Cursor1.png'), auto;
+     background-color: rgb(0, 0, 0);
+     cursor: url('assets/Cursor1.png'),auto;
+     font-family: 'Courier Prime';
+     color: white;
+     text-align: center;
  }
 
+ header {
+    text-align: center;
+ }
 
+ a {
+    cursor: url('assets/Cursor2.png'),auto;
+ }
+
+ img {
+    cursor: url('assets/Cursor2.png'),auto;
+ } 
+
+ div {
+    text-align: center;
+ }
+
+ #computer:hover { 
+    filter: drop-shadow(0 0 50px rgb(255, 255, 255));
+    transition-duration: 1s;
+ }
+
+ #redcomputer:hover { 
+    filter: drop-shadow(0 0 50px rgb(255, 0, 0));
+    transition-duration: 1s;
+ }
+
+ @font-face {
+    font-family: 'Courier Prime';
+    src: url(assets/Courier_Prime/CourierPrime-Regular.ttf);
+ }
 
